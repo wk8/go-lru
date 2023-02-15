@@ -1,8 +1,10 @@
+[![Build Status](https://circleci.com/gh/wk8/go-lru.svg?style=svg)](https://app.circleci.com/pipelines/github/wk8/go-lru)
+
 # LRU for golang
 
 Yet another LRU golang implementation.
 
-This one has the added feature of making capacity a soft constraint: caches will guarantee that items will stay cached for a minimum period of time, even when the cache is over capacity.
+This one has the added feature of making capacity a soft constraint: caches will guarantee that items will stay cached for a minimum period of time withotu getting discarded, even when the cache is over capacity.
 
 ## Usage
 
