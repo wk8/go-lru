@@ -4,7 +4,7 @@
 
 Yet another LRU golang implementation.
 
-This one has the added feature of making capacity a soft constraint: caches will guarantee that items will stay cached for a minimum period of time withotu getting discarded, even when the cache is over capacity.
+This one has the added feature of making capacity a soft constraint: caches will guarantee that items will stay cached for a minimum period of time Without getting discarded, even when the cache is over capacity.
 
 ## Usage
 
